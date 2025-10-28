@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -10,7 +10,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, BookOpen, Gavel, Linkedin, Mail, Scales, Shield, Star, Users } from "lucide-react";
+import { Award, BookOpen, Gavel, Linkedin, Mail, Scale, Shield, Star, Users } from "lucide-react";
 
 export default function Home() {
   return (
@@ -92,7 +92,7 @@ export default function Home() {
           title="Comprehensive Legal Services"
           description="From complex litigation to routine legal matters, our experienced attorneys provide expert guidance across all major areas of law."
           tag="Practice Areas"
-          tagIcon={Scales}
+          tagIcon={Scale}
           features={[
             {
               id: "01",
@@ -198,8 +198,7 @@ export default function Home() {
               company: "TechStart Solutions",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/12885861/pexels-photo-12885861.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Jennifer Walsh testimonial",
-              quote: "Legal Partners provided exceptional guidance through our corporate restructuring. Their expertise and attention to detail made all the difference."
+              imageAlt: "Jennifer Walsh testimonial"
             },
             {
               id: "2",
@@ -208,8 +207,7 @@ export default function Home() {
               company: "Kim Family Restaurant",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/7489109/pexels-photo-7489109.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Robert Kim testimonial",
-              quote: "Michael Torres helped us navigate a complex family law matter with compassion and professionalism. We couldn't have asked for better representation."
+              imageAlt: "Robert Kim testimonial"
             },
             {
               id: "3",
@@ -218,8 +216,7 @@ export default function Home() {
               company: "Creative Agency Co",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/12885861/pexels-photo-12885861.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Lisa Rodriguez testimonial",
-              quote: "The team at Legal Partners delivered outstanding results in our litigation case. Their strategic approach and dedication were impressive."
+              imageAlt: "Lisa Rodriguez testimonial"
             },
             {
               id: "4",
@@ -228,8 +225,7 @@ export default function Home() {
               company: "Thompson Properties",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/23495757/pexels-photo-23495757.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Mark Thompson testimonial",
-              quote: "Sarah Mitchell's expertise in corporate law has been invaluable to our business growth. Highly recommend Legal Partners for any legal needs."
+              imageAlt: "Mark Thompson testimonial"
             }
           ]}
         />
@@ -251,8 +247,7 @@ export default function Home() {
               imageAlt: "Legal compliance documentation",
               authorName: "Sarah Mitchell",
               authorAvatar: "https://images.pexels.com/photos/6170856/pexels-photo-6170856.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              date: "15 Jan 2025",
-              href: "/blog/corporate-compliance-2025"
+              date: "15 Jan 2025"
             },
             {
               id: "2",
@@ -263,8 +258,7 @@ export default function Home() {
               imageAlt: "Family law consultation",
               authorName: "Michael Torres",
               authorAvatar: "https://images.pexels.com/photos/7841788/pexels-photo-7841788.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              date: "12 Jan 2025",
-              href: "/blog/child-custody-guide"
+              date: "12 Jan 2025"
             },
             {
               id: "3",
@@ -275,8 +269,7 @@ export default function Home() {
               imageAlt: "Courtroom preparation",
               authorName: "David Chen",
               authorAvatar: "https://images.pexels.com/photos/8790734/pexels-photo-8790734.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              date: "8 Jan 2025",
-              href: "/blog/civil-litigation-preparation"
+              date: "8 Jan 2025"
             }
           ]}
         />
